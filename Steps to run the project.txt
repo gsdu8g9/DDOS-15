@@ -1,0 +1,13 @@
+1. install pip in the project folder
+2. install virtual environment
+3.name it flask_virtual
+4.activate virtual environment ->source flask_virtual/bin/activate
+5.run defenderserver.py
+6.From another computer run copies of baduser.py
+7.Run gooduser.py every second and note down the timings
+8.Now close server.py
+9.Run server.py
+10.go to /admin and set router speed
+11.Run copies of new baduser.py
+12.run gooduser.py every second and note down the timings.
+

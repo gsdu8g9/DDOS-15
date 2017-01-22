@@ -1,0 +1,10 @@
+{% extends "template.html" %}
+{% block content %}
+	<h2> Here are your queries</h2>
+	<br/>
+	<br/>
+	<h3>Entries Data </h3>
+	{% for item in entries2 %}
+	{{item.id}} | {{item.title}}
+{% endfor %}
+{% endblock %}
